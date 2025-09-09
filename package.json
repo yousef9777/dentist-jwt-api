@@ -1,0 +1,16 @@
+{
+  "name": "dentist-jwt-server",
+  "version": "1.0.0",
+  "description": "Free JWT server for Appwrite integration - Deploy to Vercel",
+  "main": "api/create-jwt.js",
+  "scripts": {
+    "dev": "node api/create-jwt.js",
+    "start": "node api/create-jwt.js"
+  },
+  "dependencies": {
+    "node-appwrite": "^13.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
